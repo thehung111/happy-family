@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.happy.controller.ProductControllerTest
+-------------------------------------------------------------------------------
+Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.15 sec - in com.happy.controller.ProductControllerTest
