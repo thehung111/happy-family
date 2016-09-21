@@ -1,1 +1,1 @@
-INSERT INTO Product (milkQty, eggQty) VALUES (10, 100);
+INSERT INTO Product (storeId, milkQty, eggQty) VALUES (1, 10, 100);

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.happy.controller</OriginalElement>
+  <nodes>
+    <node x="241.5" y="241.5">com.happy.model.RestResultWrapper</node>
+    <node x="685.5" y="265.0">com.happy.repository.ProductRepository</node>
+    <node x="896.0" y="372.5">com.happy.model.Product</node>
+    <node x="42.5" y="227.5">com.happy.model.QtyReq</node>
+    <node x="258.5" y="-12.5">com.happy.controller.ProductController</node>
+    <node x="974.0" y="21.0">com.happy.service.ProductService</node>
+    <node x="713.0" y="363.0">com.happy.model.RestResultWrapper.ApiStatus</node>
+    <node x="895.5" y="209.5">com.happy.service.ProductServiceImpl</node>
+    <node x="-19.0" y="341.0">com.happy.model.RestResultWrapper.ApiError</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.happy.controller.ProductController" target="com.happy.service.ProductService">
+      <point x="181.5" y="0.0" />
+      <point x="-106.0" y="0.0" />
+    </edge>
+    <edge source="com.happy.model.RestResultWrapper" target="com.happy.model.RestResultWrapper.ApiStatus">
+      <point x="198.5" y="0.0" />
+      <point x="-47.0" y="0.0" />
+    </edge>
+    <edge source="com.happy.controller.ProductController" target="com.happy.model.RestResultWrapper">
+      <point x="0.0" y="92.5" />
+      <point x="0.0" y="-158.5" />
+    </edge>
+    <edge source="com.happy.service.ProductServiceImpl" target="com.happy.service.ProductService">
+      <point x="0.0" y="-70.5" />
+      <point x="0.0" y="59.0" />
+    </edge>
+    <edge source="com.happy.model.RestResultWrapper.ApiStatus" target="com.happy.model.RestResultWrapper">
+      <point x="0.0" y="37.0" />
+      <point x="760.0" y="600.0" />
+      <point x="440.0" y="600.0" />
+      <point x="0.0" y="158.5" />
+    </edge>
+    <edge source="com.happy.service.ProductServiceImpl" target="com.happy.repository.ProductRepository">
+      <point x="-184.5" y="0.0" />
+      <point x="74.5" y="0.0" />
+    </edge>
+    <edge source="com.happy.model.RestResultWrapper.ApiError" target="com.happy.model.RestResultWrapper">
+      <point x="99.0" y="0.0" />
+      <point x="-198.5" y="0.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="792.0" y="423.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Inner Classes</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
