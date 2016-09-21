@@ -1,0 +1,1 @@
+INSERT INTO Product (milkQty, eggQty) VALUES (10, 100);
